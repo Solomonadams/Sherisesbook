@@ -1,0 +1,233 @@
+/* div.content { 
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+}  */
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #2c2c2c;
+        color: white,
+    }
+
+    p {
+        color: white
+    }
+
+    h3 {
+        color: white
+    }
+
+    h2 {
+        color: white
+    }
+
+    h1 {
+        color: white
+    }
+
+    ul {
+        color: white
+    }
+
+    a {
+        color: #9E9EFD;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: #CFADF0
+    }
+
+    a:hover {
+        color: #9E9EFD;
+        text-decoration: underline;
+    }
+
+    big {
+        color: white
+    }
+
+    /* <h1 class="shopify-buy__product__title" data-element="product.title">Charlie Walks: A Novel by Daniel Bourke (paperback)</h1> */
+    .shopify-buy__product__title {
+        /* color: white !important; */
+        color: #fff !important;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    line-height: 1.4;
+    font-size: 16px;
+    padding: 0 25px;
+    margin: 25px auto;
+    max-width: 650px;
+    /* filter: invert(1) hue-rotate(180deg); */
+    /* < !-- font-family: Avenir, "Segoe UI", Helvetica, Arial, sans-serif;
+    --> */
+}
+
+ul {
+    margin-top: 0px;
+}
+
+/* Make paperback buy button centered */
+#product-component-1667963168069 {
+    margin: auto;
+}
+
+/* Make digital button centered */
+#product-component-1667958347782 {
+    margin: auto;
+}
+
+#maincontent {
+    max-width: 38em;
+    margin: 15 auto;
+    margin-top: 70px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+/* img {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+p.content {
+    max-width: 700px;
+    /* margin: auto; */
+    display: flex;
+}
+
+p.letter {
+    font-style: italic;
+}
+
+.block_12 {
+    display: block;
+    max-width: 700px;
+    display: flex;
+    line-height: 1.5;
+    margin: 8.5pt 0;
+    padding: 0
+}
+
+.block_15 {
+    display: block;
+    font-style: italic;
+    max-width: 700px;
+    display: flex;
+    line-height: 1.5;
+    margin: 8.5pt 0;
+    padding: 0
+}
+
+.buy-btn {
+  display: inline-block;
+  background: #d4af37;
+  color: #ffffff;
+  padding: 14px 30px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.buy-btn:hover {
+  background: #b8962f;
+}
+
+.buy-btn {
+  display: inline-block;
+  background: #d4af37;
+  color: #ffffff;
+  padding: 14px 30px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.buy-btn:link,
+.buy-btn:visited,
+.buy-btn:hover,
+.buy-btn:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.buy-btn:hover {
+  background: #b8962f;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  margin-top: 13px;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #25D366, #128C7E);
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(18, 140, 126, 0.25);
+  transition: all 0.3s ease;
+}
+
+.whatsapp-btn:link,
+.whatsapp-btn:visited,
+.whatsapp-btn:hover,
+.whatsapp-btn:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.whatsapp-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(18, 140, 126, 0.35);
+}
+
+.chapter-links {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.chapter-links li {
+  margin-bottom: 15px;
+}
+
+.chapter-links a {
+  display: block;
+  padding: 14px 20px;
+  background: linear-gradient(135deg, #f8f3e8, #fffaf0);
+  border: 2px solid #d4af37;
+  border-radius: 12px;
+  color: #5a4633;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 0 6px 15px rgba(212, 175, 55, 0.15);
+  transition: all 0.3s ease;
+}
+
+.chapter-links a:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(135deg, #d4af37, #f0d97a);
+  color: #ffffff;
+  box-shadow: 0 10px 20px rgba(212, 175, 55, 0.25);
+}
